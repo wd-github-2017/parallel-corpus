@@ -1,0 +1,1720 @@
+{
+  "essay_id": "JLCW_098",
+  "group": "jp_zh",
+  "l2_lang": "zh",
+  "l1_lang": "ja",
+  "meta": {
+    "year": 2021,
+    "level": "A2",
+    "notes": "辞書あり",
+    "group": "jp_zh"
+  },
+  "warnings": [],
+  "sentences": [
+    {
+      "sid": 1,
+      "l2_field": "我的爱好是思考时尚。",
+      "l1_field": "私の趣味はファッションについて考えることです。",
+      "marked_raw": "我的【趣味|wrong-content-word|爱好】是【思想|wrong-content-word|思考】时尚。",
+      "learner_approx": "我的趣味是思想时尚。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "uj"
+        },
+        {
+          "tid": 3,
+          "form": "爱好",
+          "upos": "ADJ",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "a"
+        },
+        {
+          "tid": 4,
+          "form": "是",
+          "upos": "VERB",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "v"
+        },
+        {
+          "tid": 5,
+          "form": "思考",
+          "upos": "VERB",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "v"
+        },
+        {
+          "tid": 6,
+          "form": "时尚",
+          "upos": "NOUN",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "n"
+        },
+        {
+          "tid": 7,
+          "form": "。",
+          "upos": "X",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "趣味",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 4,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 5,
+          "form": "ファッション",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 11,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 6,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "つい",
+          "upos": "VERB",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "考える",
+          "upos": "VERB",
+          "char_start": 15,
+          "char_end": 18,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "こと",
+          "upos": "NOUN",
+          "char_start": 18,
+          "char_end": 20,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 11,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 20,
+          "char_end": 22,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 22,
+          "char_end": 23,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s1e1",
+          "before": "趣味",
+          "type": "wrong-content-word",
+          "after": "爱好",
+          "after_token_ids": [
+            3
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "趣味",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s1e2",
+          "before": "思想",
+          "type": "wrong-content-word",
+          "after": "思考",
+          "after_token_ids": [
+            5
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "思想",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 2,
+      "l2_field": "我从高三的时候就喜欢上了服装。",
+      "l1_field": "高校三年生の時に洋服が大好きになりました。",
+      "marked_raw": "我【喜欢上衣服从我高三的时候|major|从高三的时候就喜欢上了服装】。",
+      "learner_approx": "我喜欢上衣服从我高三的时候。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "从",
+          "upos": "ADP",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "p"
+        },
+        {
+          "tid": 3,
+          "form": "高三",
+          "upos": "PROPN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "nr"
+        },
+        {
+          "tid": 4,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "uj"
+        },
+        {
+          "tid": 5,
+          "form": "时候",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "n"
+        },
+        {
+          "tid": 6,
+          "form": "就",
+          "upos": "ADV",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "d"
+        },
+        {
+          "tid": 7,
+          "form": "喜欢",
+          "upos": "VERB",
+          "char_start": 8,
+          "char_end": 10,
+          "xpos": "v"
+        },
+        {
+          "tid": 8,
+          "form": "上",
+          "upos": "NOUN",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "f"
+        },
+        {
+          "tid": 9,
+          "form": "了",
+          "upos": "PART",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "ul"
+        },
+        {
+          "tid": 10,
+          "form": "服装",
+          "upos": "NOUN",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "vn"
+        },
+        {
+          "tid": 11,
+          "form": "。",
+          "upos": "X",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "高校",
+          "upos": "NOUN",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 2,
+          "form": "三",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "名詞,数詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "年",
+          "upos": "NOUN",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,助数詞可能,*"
+        },
+        {
+          "tid": 4,
+          "form": "生",
+          "upos": "PART",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "接尾辞,名詞的,一般,*"
+        },
+        {
+          "tid": 5,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 5,
+          "char_end": 6,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "時",
+          "upos": "NOUN",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "名詞,普通名詞,副詞可能,*"
+        },
+        {
+          "tid": 7,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "洋服",
+          "upos": "NOUN",
+          "char_start": 8,
+          "char_end": 10,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 9,
+          "form": "が",
+          "upos": "PART",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "大好き",
+          "upos": "ADJ",
+          "char_start": 11,
+          "char_end": 14,
+          "xpos": "形状詞,一般,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "に",
+          "upos": "AUX",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "なり",
+          "upos": "VERB",
+          "char_start": 15,
+          "char_end": 17,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "まし",
+          "upos": "AUX",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "た",
+          "upos": "AUX",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 20,
+          "char_end": 21,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s2e1",
+          "before": "喜欢上衣服从我高三的时候",
+          "type": "major",
+          "after": "从高三的时候就喜欢上了服装",
+          "after_token_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "喜欢",
+              "upos": "VERB",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "v"
+            },
+            {
+              "tid": 2,
+              "form": "上",
+              "upos": "NOUN",
+              "char_start": 2,
+              "char_end": 3,
+              "xpos": "f"
+            },
+            {
+              "tid": 3,
+              "form": "衣服",
+              "upos": "NOUN",
+              "char_start": 3,
+              "char_end": 5,
+              "xpos": "n"
+            },
+            {
+              "tid": 4,
+              "form": "从",
+              "upos": "ADP",
+              "char_start": 5,
+              "char_end": 6,
+              "xpos": "p"
+            },
+            {
+              "tid": 5,
+              "form": "我",
+              "upos": "PRON",
+              "char_start": 6,
+              "char_end": 7,
+              "xpos": "r"
+            },
+            {
+              "tid": 6,
+              "form": "高三",
+              "upos": "PROPN",
+              "char_start": 7,
+              "char_end": 9,
+              "xpos": "nr"
+            },
+            {
+              "tid": 7,
+              "form": "的",
+              "upos": "PART",
+              "char_start": 9,
+              "char_end": 10,
+              "xpos": "uj"
+            },
+            {
+              "tid": 8,
+              "form": "时候",
+              "upos": "NOUN",
+              "char_start": 10,
+              "char_end": 12,
+              "xpos": "n"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 3,
+      "l2_field": "从那时起，思考关于时尚的内容让我很愉快。",
+      "l1_field": "それ以降ファッションのことを考えるのがとても楽しいです。",
+      "marked_raw": "从那时起【、|wrong-punctuation|，】【我很愉快思想关于时尚|major|思考关于时尚的内容让我很愉快】。",
+      "learner_approx": "从那时起、我很愉快思想关于时尚。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "从那时起",
+          "upos": "X",
+          "char_start": 0,
+          "char_end": 4,
+          "xpos": "l"
+        },
+        {
+          "tid": 2,
+          "form": "，",
+          "upos": "X",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "x"
+        },
+        {
+          "tid": 3,
+          "form": "思考",
+          "upos": "VERB",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "v"
+        },
+        {
+          "tid": 4,
+          "form": "关于",
+          "upos": "ADP",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "p"
+        },
+        {
+          "tid": 5,
+          "form": "时尚",
+          "upos": "NOUN",
+          "char_start": 9,
+          "char_end": 11,
+          "xpos": "n"
+        },
+        {
+          "tid": 6,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "uj"
+        },
+        {
+          "tid": 7,
+          "form": "内容",
+          "upos": "NOUN",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "n"
+        },
+        {
+          "tid": 8,
+          "form": "让",
+          "upos": "VERB",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "v"
+        },
+        {
+          "tid": 9,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 15,
+          "char_end": 16,
+          "xpos": "r"
+        },
+        {
+          "tid": 10,
+          "form": "很",
+          "upos": "ADV",
+          "char_start": 16,
+          "char_end": 17,
+          "xpos": "d"
+        },
+        {
+          "tid": 11,
+          "form": "愉快",
+          "upos": "ADJ",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "a"
+        },
+        {
+          "tid": 12,
+          "form": "。",
+          "upos": "X",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "それ",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "以降",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,副詞可能,*"
+        },
+        {
+          "tid": 3,
+          "form": "ファッション",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 10,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 4,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 5,
+          "form": "こと",
+          "upos": "NOUN",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 6,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "考える",
+          "upos": "VERB",
+          "char_start": 14,
+          "char_end": 17,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 17,
+          "char_end": 18,
+          "xpos": "助詞,準体助詞,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "が",
+          "upos": "PART",
+          "char_start": 18,
+          "char_end": 19,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "とても",
+          "upos": "ADV",
+          "char_start": 19,
+          "char_end": 22,
+          "xpos": "副詞,*,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "楽しい",
+          "upos": "ADJ",
+          "char_start": 22,
+          "char_end": 25,
+          "xpos": "形容詞,一般,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 25,
+          "char_end": 27,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 27,
+          "char_end": 28,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s3e1",
+          "before": "、",
+          "type": "wrong-punctuation",
+          "after": "，",
+          "after_token_ids": [
+            2
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "、",
+              "upos": "X",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "x"
+            }
+          ]
+        },
+        {
+          "eid": "s3e2",
+          "before": "我很愉快思想关于时尚",
+          "type": "major",
+          "after": "思考关于时尚的内容让我很愉快",
+          "after_token_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "我",
+              "upos": "PRON",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "r"
+            },
+            {
+              "tid": 2,
+              "form": "很",
+              "upos": "ADV",
+              "char_start": 1,
+              "char_end": 2,
+              "xpos": "d"
+            },
+            {
+              "tid": 3,
+              "form": "愉快",
+              "upos": "ADJ",
+              "char_start": 2,
+              "char_end": 4,
+              "xpos": "a"
+            },
+            {
+              "tid": 4,
+              "form": "思想",
+              "upos": "NOUN",
+              "char_start": 4,
+              "char_end": 6,
+              "xpos": "n"
+            },
+            {
+              "tid": 5,
+              "form": "关于",
+              "upos": "ADP",
+              "char_start": 6,
+              "char_end": 8,
+              "xpos": "p"
+            },
+            {
+              "tid": 6,
+              "form": "时尚",
+              "upos": "NOUN",
+              "char_start": 8,
+              "char_end": 10,
+              "xpos": "n"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 4,
+      "l2_field": "最近，我不仅思考衣服，还思考饰品、化妆品、香水相关的时尚内容。",
+      "l1_field": "最近ではお洋服だけでなく、香水や化粧品やアクセサリなど様々なところからファッションのことを考えるようになった。",
+      "marked_raw": "最近【、|wrong-punctuation|，】我不仅【思想|wrong-content-word|思考】衣服【、|wrong-punctuation|，】【还我思想|major|还思考】【饰物慈香水|major|饰品、化妆品、香水相关的时尚内容】。",
+      "learner_approx": "最近、我不仅思想衣服、还我思想饰物慈香水。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "最近",
+          "upos": "NOUN",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "f"
+        },
+        {
+          "tid": 2,
+          "form": "，",
+          "upos": "X",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "x"
+        },
+        {
+          "tid": 3,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "r"
+        },
+        {
+          "tid": 4,
+          "form": "不仅",
+          "upos": "CCONJ",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "c"
+        },
+        {
+          "tid": 5,
+          "form": "思考",
+          "upos": "VERB",
+          "char_start": 6,
+          "char_end": 8,
+          "xpos": "v"
+        },
+        {
+          "tid": 6,
+          "form": "衣服",
+          "upos": "NOUN",
+          "char_start": 8,
+          "char_end": 10,
+          "xpos": "n"
+        },
+        {
+          "tid": 7,
+          "form": "，",
+          "upos": "X",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "x"
+        },
+        {
+          "tid": 8,
+          "form": "还",
+          "upos": "ADV",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "d"
+        },
+        {
+          "tid": 9,
+          "form": "思考",
+          "upos": "VERB",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "v"
+        },
+        {
+          "tid": 10,
+          "form": "饰品",
+          "upos": "NOUN",
+          "char_start": 14,
+          "char_end": 16,
+          "xpos": "n"
+        },
+        {
+          "tid": 11,
+          "form": "、",
+          "upos": "X",
+          "char_start": 16,
+          "char_end": 17,
+          "xpos": "x"
+        },
+        {
+          "tid": 12,
+          "form": "化妆品",
+          "upos": "NOUN",
+          "char_start": 17,
+          "char_end": 20,
+          "xpos": "n"
+        },
+        {
+          "tid": 13,
+          "form": "、",
+          "upos": "X",
+          "char_start": 20,
+          "char_end": 21,
+          "xpos": "x"
+        },
+        {
+          "tid": 14,
+          "form": "香水",
+          "upos": "PROPN",
+          "char_start": 21,
+          "char_end": 23,
+          "xpos": "ns"
+        },
+        {
+          "tid": 15,
+          "form": "相关",
+          "upos": "VERB",
+          "char_start": 23,
+          "char_end": 25,
+          "xpos": "v"
+        },
+        {
+          "tid": 16,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 25,
+          "char_end": 26,
+          "xpos": "uj"
+        },
+        {
+          "tid": 17,
+          "form": "时尚",
+          "upos": "NOUN",
+          "char_start": 26,
+          "char_end": 28,
+          "xpos": "n"
+        },
+        {
+          "tid": 18,
+          "form": "内容",
+          "upos": "NOUN",
+          "char_start": 28,
+          "char_end": 30,
+          "xpos": "n"
+        },
+        {
+          "tid": 19,
+          "form": "。",
+          "upos": "X",
+          "char_start": 30,
+          "char_end": 31,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "最近",
+          "upos": "NOUN",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "名詞,普通名詞,副詞可能,*"
+        },
+        {
+          "tid": 2,
+          "form": "で",
+          "upos": "PART",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "お",
+          "upos": "PART",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "接頭辞,*,*,*"
+        },
+        {
+          "tid": 5,
+          "form": "洋服",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 6,
+          "form": "だけ",
+          "upos": "PART",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "助詞,副助詞,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "で",
+          "upos": "AUX",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "なく",
+          "upos": "ADJ",
+          "char_start": 10,
+          "char_end": 12,
+          "xpos": "形容詞,非自立可能,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "、",
+          "upos": "PUNCT",
+          "char_start": 12,
+          "char_end": 13,
+          "xpos": "補助記号,読点,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "香水",
+          "upos": "NOUN",
+          "char_start": 13,
+          "char_end": 15,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 11,
+          "form": "や",
+          "upos": "PART",
+          "char_start": 15,
+          "char_end": 16,
+          "xpos": "助詞,副助詞,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "化粧",
+          "upos": "NOUN",
+          "char_start": 16,
+          "char_end": 18,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 13,
+          "form": "品",
+          "upos": "PART",
+          "char_start": 18,
+          "char_end": 19,
+          "xpos": "接尾辞,名詞的,一般,*"
+        },
+        {
+          "tid": 14,
+          "form": "や",
+          "upos": "PART",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "助詞,副助詞,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "アクセサリ",
+          "upos": "NOUN",
+          "char_start": 20,
+          "char_end": 25,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 16,
+          "form": "など",
+          "upos": "PART",
+          "char_start": 25,
+          "char_end": 27,
+          "xpos": "助詞,副助詞,*,*"
+        },
+        {
+          "tid": 17,
+          "form": "様々",
+          "upos": "ADJ",
+          "char_start": 27,
+          "char_end": 29,
+          "xpos": "形状詞,一般,*,*"
+        },
+        {
+          "tid": 18,
+          "form": "な",
+          "upos": "AUX",
+          "char_start": 29,
+          "char_end": 30,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 19,
+          "form": "ところ",
+          "upos": "NOUN",
+          "char_start": 30,
+          "char_end": 33,
+          "xpos": "名詞,普通名詞,副詞可能,*"
+        },
+        {
+          "tid": 20,
+          "form": "から",
+          "upos": "PART",
+          "char_start": 33,
+          "char_end": 35,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 21,
+          "form": "ファッション",
+          "upos": "NOUN",
+          "char_start": 35,
+          "char_end": 41,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 22,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 41,
+          "char_end": 42,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 23,
+          "form": "こと",
+          "upos": "NOUN",
+          "char_start": 42,
+          "char_end": 44,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 24,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 44,
+          "char_end": 45,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 25,
+          "form": "考える",
+          "upos": "VERB",
+          "char_start": 45,
+          "char_end": 48,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 26,
+          "form": "よう",
+          "upos": "ADJ",
+          "char_start": 48,
+          "char_end": 50,
+          "xpos": "形状詞,助動詞語幹,*,*"
+        },
+        {
+          "tid": 27,
+          "form": "に",
+          "upos": "AUX",
+          "char_start": 50,
+          "char_end": 51,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 28,
+          "form": "なっ",
+          "upos": "VERB",
+          "char_start": 51,
+          "char_end": 53,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 29,
+          "form": "た",
+          "upos": "AUX",
+          "char_start": 53,
+          "char_end": 54,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 30,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 54,
+          "char_end": 55,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s4e1",
+          "before": "、",
+          "type": "wrong-punctuation",
+          "after": "，",
+          "after_token_ids": [
+            2
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "、",
+              "upos": "X",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "x"
+            }
+          ]
+        },
+        {
+          "eid": "s4e2",
+          "before": "思想",
+          "type": "wrong-content-word",
+          "after": "思考",
+          "after_token_ids": [
+            5
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "思想",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s4e3",
+          "before": "、",
+          "type": "wrong-punctuation",
+          "after": "，",
+          "after_token_ids": [
+            2
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "、",
+              "upos": "X",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "x"
+            }
+          ]
+        },
+        {
+          "eid": "s4e4",
+          "before": "还我思想",
+          "type": "major",
+          "after": "还思考",
+          "after_token_ids": [
+            8,
+            9
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "还",
+              "upos": "ADV",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "d"
+            },
+            {
+              "tid": 2,
+              "form": "我",
+              "upos": "PRON",
+              "char_start": 1,
+              "char_end": 2,
+              "xpos": "r"
+            },
+            {
+              "tid": 3,
+              "form": "思想",
+              "upos": "NOUN",
+              "char_start": 2,
+              "char_end": 4,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s4e5",
+          "before": "饰物慈香水",
+          "type": "major",
+          "after": "饰品、化妆品、香水相关的时尚内容",
+          "after_token_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "饰物",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            },
+            {
+              "tid": 2,
+              "form": "慈",
+              "upos": "PROPN",
+              "char_start": 2,
+              "char_end": 3,
+              "xpos": "nr"
+            },
+            {
+              "tid": 3,
+              "form": "香水",
+              "upos": "PROPN",
+              "char_start": 3,
+              "char_end": 5,
+              "xpos": "ns"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 5,
+      "l2_field": "我想成为一个时髦的人，可以为想要变时尚的人提供咨询。",
+      "l1_field": "オシャレになりたいって思う人の相談に乗れるようになりたいです。",
+      "marked_raw": "我想成为一个时髦的人【、|wrong-punctuation|，】可以【回应人们的|major|为想要变时尚的人提供】咨询。",
+      "learner_approx": "我想成为一个时髦的人、可以回应人们的咨询。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "想",
+          "upos": "VERB",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "v"
+        },
+        {
+          "tid": 3,
+          "form": "成为",
+          "upos": "VERB",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "v"
+        },
+        {
+          "tid": 4,
+          "form": "一个",
+          "upos": "NUM",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "m"
+        },
+        {
+          "tid": 5,
+          "form": "时髦",
+          "upos": "PROPN",
+          "char_start": 6,
+          "char_end": 8,
+          "xpos": "nr"
+        },
+        {
+          "tid": 6,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "uj"
+        },
+        {
+          "tid": 7,
+          "form": "人",
+          "upos": "NOUN",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "n"
+        },
+        {
+          "tid": 8,
+          "form": "，",
+          "upos": "X",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "x"
+        },
+        {
+          "tid": 9,
+          "form": "可以",
+          "upos": "CCONJ",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "c"
+        },
+        {
+          "tid": 10,
+          "form": "为",
+          "upos": "ADP",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "p"
+        },
+        {
+          "tid": 11,
+          "form": "想要",
+          "upos": "VERB",
+          "char_start": 14,
+          "char_end": 16,
+          "xpos": "v"
+        },
+        {
+          "tid": 12,
+          "form": "变",
+          "upos": "VERB",
+          "char_start": 16,
+          "char_end": 17,
+          "xpos": "v"
+        },
+        {
+          "tid": 13,
+          "form": "时尚",
+          "upos": "NOUN",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "n"
+        },
+        {
+          "tid": 14,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "uj"
+        },
+        {
+          "tid": 15,
+          "form": "人",
+          "upos": "NOUN",
+          "char_start": 20,
+          "char_end": 21,
+          "xpos": "n"
+        },
+        {
+          "tid": 16,
+          "form": "提供",
+          "upos": "VERB",
+          "char_start": 21,
+          "char_end": 23,
+          "xpos": "v"
+        },
+        {
+          "tid": 17,
+          "form": "咨询",
+          "upos": "NOUN",
+          "char_start": 23,
+          "char_end": 25,
+          "xpos": "vn"
+        },
+        {
+          "tid": 18,
+          "form": "。",
+          "upos": "X",
+          "char_start": 25,
+          "char_end": 26,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "オシャレ",
+          "upos": "NOUN",
+          "char_start": 0,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,サ変形状詞可能,*"
+        },
+        {
+          "tid": 2,
+          "form": "に",
+          "upos": "AUX",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "なり",
+          "upos": "VERB",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "たい",
+          "upos": "AUX",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 5,
+          "form": "って",
+          "upos": "PART",
+          "char_start": 9,
+          "char_end": 11,
+          "xpos": "助詞,副助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "思う",
+          "upos": "VERB",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "人",
+          "upos": "NOUN",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 8,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "相談",
+          "upos": "NOUN",
+          "char_start": 15,
+          "char_end": 17,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 10,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 17,
+          "char_end": 18,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "乗れる",
+          "upos": "VERB",
+          "char_start": 18,
+          "char_end": 21,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "よう",
+          "upos": "ADJ",
+          "char_start": 21,
+          "char_end": 23,
+          "xpos": "形状詞,助動詞語幹,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "に",
+          "upos": "AUX",
+          "char_start": 23,
+          "char_end": 24,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "なり",
+          "upos": "VERB",
+          "char_start": 24,
+          "char_end": 26,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "たい",
+          "upos": "AUX",
+          "char_start": 26,
+          "char_end": 28,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 16,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 28,
+          "char_end": 30,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 17,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 30,
+          "char_end": 31,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s5e1",
+          "before": "、",
+          "type": "wrong-punctuation",
+          "after": "，",
+          "after_token_ids": [
+            8
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "、",
+              "upos": "X",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "x"
+            }
+          ]
+        },
+        {
+          "eid": "s5e2",
+          "before": "回应人们的",
+          "type": "major",
+          "after": "为想要变时尚的人提供",
+          "after_token_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "回应",
+              "upos": "VERB",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "v"
+            },
+            {
+              "tid": 2,
+              "form": "人们",
+              "upos": "NOUN",
+              "char_start": 2,
+              "char_end": 4,
+              "xpos": "n"
+            },
+            {
+              "tid": 3,
+              "form": "的",
+              "upos": "PART",
+              "char_start": 4,
+              "char_end": 5,
+              "xpos": "uj"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

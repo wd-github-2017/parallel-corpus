@@ -1,0 +1,1916 @@
+{
+  "essay_id": "JLCW_036",
+  "group": "jp_zh",
+  "l2_lang": "zh",
+  "l1_lang": "ja",
+  "meta": {
+    "year": 2021,
+    "level": "A2",
+    "notes": "辞書あり",
+    "group": "jp_zh"
+  },
+  "warnings": [],
+  "sentences": [
+    {
+      "sid": 1,
+      "l2_field": "我在大学学习了机械理论。",
+      "l1_field": "私は大学生活を通して、機械の理論について学びました。",
+      "marked_raw": "我在大学【学|wrong-content-word|学习】了机械【的|extra-function-word|∅】理论。",
+      "learner_approx": "我在大学学了机械的理论。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "在",
+          "upos": "ADP",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "p"
+        },
+        {
+          "tid": 3,
+          "form": "大学",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "n"
+        },
+        {
+          "tid": 4,
+          "form": "学习",
+          "upos": "VERB",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "v"
+        },
+        {
+          "tid": 5,
+          "form": "了",
+          "upos": "PART",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "ul"
+        },
+        {
+          "tid": 6,
+          "form": "机械",
+          "upos": "NOUN",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "n"
+        },
+        {
+          "tid": 7,
+          "form": "理论",
+          "upos": "NOUN",
+          "char_start": 9,
+          "char_end": 11,
+          "xpos": "n"
+        },
+        {
+          "tid": 8,
+          "form": "。",
+          "upos": "X",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "大学",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 4,
+          "form": "生活",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 5,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "通し",
+          "upos": "VERB",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "、",
+          "upos": "PUNCT",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "補助記号,読点,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "機械",
+          "upos": "NOUN",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 10,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "理論",
+          "upos": "NOUN",
+          "char_start": 14,
+          "char_end": 16,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 12,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 16,
+          "char_end": 17,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "つい",
+          "upos": "VERB",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "学び",
+          "upos": "VERB",
+          "char_start": 20,
+          "char_end": 22,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 16,
+          "form": "まし",
+          "upos": "AUX",
+          "char_start": 22,
+          "char_end": 24,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 17,
+          "form": "た",
+          "upos": "AUX",
+          "char_start": 24,
+          "char_end": 25,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 18,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 25,
+          "char_end": 26,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s1e1",
+          "before": "学",
+          "type": "wrong-content-word",
+          "after": "学习",
+          "after_token_ids": [
+            4
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "学",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s1e2",
+          "before": "的",
+          "type": "extra-function-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "的",
+              "upos": "PART",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "uj"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 2,
+      "l2_field": "我从工科高中毕业了。",
+      "l1_field": "高校は工業高校を卒業しました。",
+      "marked_raw": "我【∅|missing-function-word|从】工科高中毕业了。",
+      "learner_approx": "我工科高中毕业了。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "从",
+          "upos": "ADP",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "p"
+        },
+        {
+          "tid": 3,
+          "form": "工科",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "n"
+        },
+        {
+          "tid": 4,
+          "form": "高中毕业",
+          "upos": "PROPN",
+          "char_start": 4,
+          "char_end": 8,
+          "xpos": "nr"
+        },
+        {
+          "tid": 5,
+          "form": "了",
+          "upos": "PART",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "ul"
+        },
+        {
+          "tid": 6,
+          "form": "。",
+          "upos": "X",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "高校",
+          "upos": "NOUN",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 2,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "工業",
+          "upos": "NOUN",
+          "char_start": 3,
+          "char_end": 5,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 4,
+          "form": "高校",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 5,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "卒業",
+          "upos": "NOUN",
+          "char_start": 8,
+          "char_end": 10,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 7,
+          "form": "し",
+          "upos": "VERB",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "まし",
+          "upos": "AUX",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "た",
+          "upos": "AUX",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s2e1",
+          "before": "∅",
+          "type": "missing-function-word",
+          "after": "从",
+          "after_token_ids": [
+            2
+          ],
+          "before_tokens": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 3,
+      "l2_field": "在高中时期，我学习了机械技术。",
+      "l1_field": "そこでは機械の技術を身に着けることができました。",
+      "marked_raw": "【∅|missing-function-word|在】【高中生|wrong-content-word|高中】【时候|wrong-content-word|时期】，【∅|missing-sentence-element|我】学习了机械【的|extra-function-word|∅】技术。",
+      "learner_approx": "高中生时候，学习了机械的技术。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "在",
+          "upos": "ADP",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "p"
+        },
+        {
+          "tid": 2,
+          "form": "高中",
+          "upos": "NOUN",
+          "char_start": 1,
+          "char_end": 3,
+          "xpos": "s"
+        },
+        {
+          "tid": 3,
+          "form": "时期",
+          "upos": "NOUN",
+          "char_start": 3,
+          "char_end": 5,
+          "xpos": "n"
+        },
+        {
+          "tid": 4,
+          "form": "，",
+          "upos": "X",
+          "char_start": 5,
+          "char_end": 6,
+          "xpos": "x"
+        },
+        {
+          "tid": 5,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "r"
+        },
+        {
+          "tid": 6,
+          "form": "学习",
+          "upos": "VERB",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "v"
+        },
+        {
+          "tid": 7,
+          "form": "了",
+          "upos": "PART",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "ul"
+        },
+        {
+          "tid": 8,
+          "form": "机械",
+          "upos": "NOUN",
+          "char_start": 10,
+          "char_end": 12,
+          "xpos": "n"
+        },
+        {
+          "tid": 9,
+          "form": "技术",
+          "upos": "NOUN",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "n"
+        },
+        {
+          "tid": 10,
+          "form": "。",
+          "upos": "X",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "そこ",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 2,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "で",
+          "upos": "PART",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "機械",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 5,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "技術",
+          "upos": "NOUN",
+          "char_start": 7,
+          "char_end": 9,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 7,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "身",
+          "upos": "NOUN",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 9,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "着ける",
+          "upos": "VERB",
+          "char_start": 12,
+          "char_end": 15,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "こと",
+          "upos": "NOUN",
+          "char_start": 15,
+          "char_end": 17,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 12,
+          "form": "が",
+          "upos": "PART",
+          "char_start": 17,
+          "char_end": 18,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "でき",
+          "upos": "VERB",
+          "char_start": 18,
+          "char_end": 20,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "まし",
+          "upos": "AUX",
+          "char_start": 20,
+          "char_end": 22,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "た",
+          "upos": "AUX",
+          "char_start": 22,
+          "char_end": 23,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 16,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 23,
+          "char_end": 24,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s3e1",
+          "before": "∅",
+          "type": "missing-function-word",
+          "after": "在",
+          "after_token_ids": [
+            1
+          ],
+          "before_tokens": []
+        },
+        {
+          "eid": "s3e2",
+          "before": "高中生",
+          "type": "wrong-content-word",
+          "after": "高中",
+          "after_token_ids": [
+            2
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "高中生",
+              "upos": "PROPN",
+              "char_start": 0,
+              "char_end": 3,
+              "xpos": "nr"
+            }
+          ]
+        },
+        {
+          "eid": "s3e3",
+          "before": "时候",
+          "type": "wrong-content-word",
+          "after": "时期",
+          "after_token_ids": [
+            3
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "时候",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s3e4",
+          "before": "∅",
+          "type": "missing-sentence-element",
+          "after": "我",
+          "after_token_ids": [
+            5
+          ],
+          "before_tokens": []
+        },
+        {
+          "eid": "s3e5",
+          "before": "的",
+          "type": "extra-function-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "的",
+              "upos": "PART",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "uj"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 4,
+      "l2_field": "我想活用这些经验，在这里工作。",
+      "l1_field": "私はこの経験を活かして、貴社で働きたいです。",
+      "marked_raw": "我想【会|extra-function-word|∅】【利用|wrong-content-word|活用】【这个|wrong-content-word|这些】经验，【我|wrong-content-word|∅】【想|extra-function-word|∅】在这里工作。",
+      "learner_approx": "我想会利用这个经验，我想在这里工作。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "想",
+          "upos": "VERB",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "v"
+        },
+        {
+          "tid": 3,
+          "form": "活用",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "vn"
+        },
+        {
+          "tid": 4,
+          "form": "这些",
+          "upos": "PRON",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "r"
+        },
+        {
+          "tid": 5,
+          "form": "经验",
+          "upos": "NOUN",
+          "char_start": 6,
+          "char_end": 8,
+          "xpos": "n"
+        },
+        {
+          "tid": 6,
+          "form": "，",
+          "upos": "X",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "x"
+        },
+        {
+          "tid": 7,
+          "form": "在",
+          "upos": "ADP",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "p"
+        },
+        {
+          "tid": 8,
+          "form": "这里",
+          "upos": "PRON",
+          "char_start": 10,
+          "char_end": 12,
+          "xpos": "r"
+        },
+        {
+          "tid": 9,
+          "form": "工作",
+          "upos": "NOUN",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "vn"
+        },
+        {
+          "tid": 10,
+          "form": "。",
+          "upos": "X",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "この",
+          "upos": "DET",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "連体詞,*,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "経験",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 5,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "活かし",
+          "upos": "VERB",
+          "char_start": 7,
+          "char_end": 10,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "、",
+          "upos": "PUNCT",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "補助記号,読点,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "貴社",
+          "upos": "NOUN",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 10,
+          "form": "で",
+          "upos": "PART",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "働き",
+          "upos": "VERB",
+          "char_start": 15,
+          "char_end": 17,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "たい",
+          "upos": "AUX",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 19,
+          "char_end": 21,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 21,
+          "char_end": 22,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s4e1",
+          "before": "会",
+          "type": "extra-function-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "会",
+              "upos": "VERB",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "v"
+            }
+          ]
+        },
+        {
+          "eid": "s4e2",
+          "before": "利用",
+          "type": "wrong-content-word",
+          "after": "活用",
+          "after_token_ids": [
+            3
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "利用",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s4e3",
+          "before": "这个",
+          "type": "wrong-content-word",
+          "after": "这些",
+          "after_token_ids": [
+            4
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "这个",
+              "upos": "PRON",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "r"
+            }
+          ]
+        },
+        {
+          "eid": "s4e4",
+          "before": "我",
+          "type": "wrong-content-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "我",
+              "upos": "PRON",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "r"
+            }
+          ]
+        },
+        {
+          "eid": "s4e5",
+          "before": "想",
+          "type": "extra-function-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "想",
+              "upos": "VERB",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "v"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 5,
+      "l2_field": "我生于（地名），很喜欢这里。",
+      "l1_field": "私は（地名）県で生まれ、この地が大好きです。",
+      "marked_raw": "我生于（地名），【我|wrong-content-word|∅】很喜欢【这|wrong-content-word|这里】。",
+      "learner_approx": "我生于（地名），我很喜欢这。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "生于",
+          "upos": "VERB",
+          "char_start": 1,
+          "char_end": 3,
+          "xpos": "v"
+        },
+        {
+          "tid": 3,
+          "form": "（",
+          "upos": "X",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "x"
+        },
+        {
+          "tid": 4,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "n"
+        },
+        {
+          "tid": 5,
+          "form": "）",
+          "upos": "X",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "x"
+        },
+        {
+          "tid": 6,
+          "form": "，",
+          "upos": "X",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "x"
+        },
+        {
+          "tid": 7,
+          "form": "很",
+          "upos": "ADJ",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "zg"
+        },
+        {
+          "tid": 8,
+          "form": "喜欢",
+          "upos": "VERB",
+          "char_start": 9,
+          "char_end": 11,
+          "xpos": "v"
+        },
+        {
+          "tid": 9,
+          "form": "这里",
+          "upos": "PRON",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "r"
+        },
+        {
+          "tid": 10,
+          "form": "。",
+          "upos": "X",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "（",
+          "upos": "PUNCT",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "補助記号,括弧開,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 3,
+          "char_end": 5,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 5,
+          "form": "）",
+          "upos": "PUNCT",
+          "char_start": 5,
+          "char_end": 6,
+          "xpos": "補助記号,括弧閉,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "県",
+          "upos": "NOUN",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 7,
+          "form": "で",
+          "upos": "PART",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "生まれ",
+          "upos": "VERB",
+          "char_start": 8,
+          "char_end": 11,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "、",
+          "upos": "PUNCT",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "補助記号,読点,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "この",
+          "upos": "DET",
+          "char_start": 12,
+          "char_end": 14,
+          "xpos": "連体詞,*,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "地",
+          "upos": "NOUN",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 12,
+          "form": "が",
+          "upos": "PART",
+          "char_start": 15,
+          "char_end": 16,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "大好き",
+          "upos": "ADJ",
+          "char_start": 16,
+          "char_end": 19,
+          "xpos": "形状詞,一般,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 19,
+          "char_end": 21,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 21,
+          "char_end": 22,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s5e1",
+          "before": "我",
+          "type": "wrong-content-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "我",
+              "upos": "PRON",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "r"
+            }
+          ]
+        },
+        {
+          "eid": "s5e2",
+          "before": "这",
+          "type": "wrong-content-word",
+          "after": "这里",
+          "after_token_ids": [
+            9
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "这",
+              "upos": "PRON",
+              "char_start": 0,
+              "char_end": 1,
+              "xpos": "r"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 6,
+      "l2_field": "（地名）的制造业很有魅力，所以我想成为在（地名）工作的工程师。",
+      "l1_field": "（地名）県の製造業はとても魅力的です。ですから私は（地名）のエンジニアになりたいです。",
+      "marked_raw": "（地名）的制造业很有魅力，所以我想成为【∅|missing-function-word|在】（地名）【∅|missing-sentence-element|工作】的工程师。",
+      "learner_approx": "（地名）的制造业很有魅力，所以我想成为（地名）的工程师。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "（",
+          "upos": "X",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "x"
+        },
+        {
+          "tid": 2,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 1,
+          "char_end": 3,
+          "xpos": "n"
+        },
+        {
+          "tid": 3,
+          "form": "）",
+          "upos": "X",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "x"
+        },
+        {
+          "tid": 4,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "uj"
+        },
+        {
+          "tid": 5,
+          "form": "制造业",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 8,
+          "xpos": "n"
+        },
+        {
+          "tid": 6,
+          "form": "很",
+          "upos": "ADV",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "d"
+        },
+        {
+          "tid": 7,
+          "form": "有",
+          "upos": "VERB",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "v"
+        },
+        {
+          "tid": 8,
+          "form": "魅力",
+          "upos": "NOUN",
+          "char_start": 10,
+          "char_end": 12,
+          "xpos": "n"
+        },
+        {
+          "tid": 9,
+          "form": "，",
+          "upos": "X",
+          "char_start": 12,
+          "char_end": 13,
+          "xpos": "x"
+        },
+        {
+          "tid": 10,
+          "form": "所以",
+          "upos": "CCONJ",
+          "char_start": 13,
+          "char_end": 15,
+          "xpos": "c"
+        },
+        {
+          "tid": 11,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 15,
+          "char_end": 16,
+          "xpos": "r"
+        },
+        {
+          "tid": 12,
+          "form": "想",
+          "upos": "VERB",
+          "char_start": 16,
+          "char_end": 17,
+          "xpos": "v"
+        },
+        {
+          "tid": 13,
+          "form": "成为",
+          "upos": "VERB",
+          "char_start": 17,
+          "char_end": 19,
+          "xpos": "v"
+        },
+        {
+          "tid": 14,
+          "form": "在",
+          "upos": "ADP",
+          "char_start": 19,
+          "char_end": 20,
+          "xpos": "p"
+        },
+        {
+          "tid": 15,
+          "form": "（",
+          "upos": "X",
+          "char_start": 20,
+          "char_end": 21,
+          "xpos": "x"
+        },
+        {
+          "tid": 16,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 21,
+          "char_end": 23,
+          "xpos": "n"
+        },
+        {
+          "tid": 17,
+          "form": "）",
+          "upos": "X",
+          "char_start": 23,
+          "char_end": 24,
+          "xpos": "x"
+        },
+        {
+          "tid": 18,
+          "form": "工作",
+          "upos": "NOUN",
+          "char_start": 24,
+          "char_end": 26,
+          "xpos": "vn"
+        },
+        {
+          "tid": 19,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 26,
+          "char_end": 27,
+          "xpos": "uj"
+        },
+        {
+          "tid": 20,
+          "form": "工程师",
+          "upos": "NOUN",
+          "char_start": 27,
+          "char_end": 30,
+          "xpos": "n"
+        },
+        {
+          "tid": 21,
+          "form": "。",
+          "upos": "X",
+          "char_start": 30,
+          "char_end": 31,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "（",
+          "upos": "PUNCT",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "補助記号,括弧開,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 1,
+          "char_end": 3,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 3,
+          "form": "）",
+          "upos": "PUNCT",
+          "char_start": 3,
+          "char_end": 4,
+          "xpos": "補助記号,括弧閉,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "県",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 5,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 5,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 5,
+          "char_end": 6,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "製造",
+          "upos": "NOUN",
+          "char_start": 6,
+          "char_end": 8,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 7,
+          "form": "業",
+          "upos": "PART",
+          "char_start": 8,
+          "char_end": 9,
+          "xpos": "接尾辞,名詞的,一般,*"
+        },
+        {
+          "tid": 8,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 9,
+          "char_end": 10,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "とても",
+          "upos": "ADV",
+          "char_start": 10,
+          "char_end": 13,
+          "xpos": "副詞,*,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "魅力",
+          "upos": "NOUN",
+          "char_start": 13,
+          "char_end": 15,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 11,
+          "form": "的",
+          "upos": "PART",
+          "char_start": 15,
+          "char_end": 16,
+          "xpos": "接尾辞,形状詞的,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 16,
+          "char_end": 18,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 18,
+          "char_end": 19,
+          "xpos": "補助記号,句点,*,*"
+        },
+        {
+          "tid": 14,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 19,
+          "char_end": 21,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 15,
+          "form": "から",
+          "upos": "PART",
+          "char_start": 21,
+          "char_end": 23,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 16,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 23,
+          "char_end": 24,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 17,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 24,
+          "char_end": 25,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 18,
+          "form": "（",
+          "upos": "PUNCT",
+          "char_start": 25,
+          "char_end": 26,
+          "xpos": "補助記号,括弧開,*,*"
+        },
+        {
+          "tid": 19,
+          "form": "地名",
+          "upos": "NOUN",
+          "char_start": 26,
+          "char_end": 28,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 20,
+          "form": "）",
+          "upos": "PUNCT",
+          "char_start": 28,
+          "char_end": 29,
+          "xpos": "補助記号,括弧閉,*,*"
+        },
+        {
+          "tid": 21,
+          "form": "の",
+          "upos": "PART",
+          "char_start": 29,
+          "char_end": 30,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 22,
+          "form": "エンジニア",
+          "upos": "NOUN",
+          "char_start": 30,
+          "char_end": 35,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 23,
+          "form": "に",
+          "upos": "PART",
+          "char_start": 35,
+          "char_end": 36,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 24,
+          "form": "なり",
+          "upos": "VERB",
+          "char_start": 36,
+          "char_end": 38,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 25,
+          "form": "たい",
+          "upos": "AUX",
+          "char_start": 38,
+          "char_end": 40,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 26,
+          "form": "です",
+          "upos": "AUX",
+          "char_start": 40,
+          "char_end": 42,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 27,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 42,
+          "char_end": 43,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s6e1",
+          "before": "∅",
+          "type": "missing-function-word",
+          "after": "在",
+          "after_token_ids": [
+            14
+          ],
+          "before_tokens": []
+        },
+        {
+          "eid": "s6e2",
+          "before": "∅",
+          "type": "missing-sentence-element",
+          "after": "工作",
+          "after_token_ids": [
+            18
+          ],
+          "before_tokens": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "sid": 7,
+      "l2_field": "我想为地区发展贡献力量。",
+      "l1_field": "私は地域貢献をしたいと考えています。",
+      "marked_raw": "我想【策划|wrong-content-word|∅】【∅|missing-function-word|为】【地域|wrong-content-word|地区发展】贡献【∅|missing-sentence-element|力量】。",
+      "learner_approx": "我想策划地域贡献。",
+      "l2_tokens": [
+        {
+          "tid": 1,
+          "form": "我",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "r"
+        },
+        {
+          "tid": 2,
+          "form": "想",
+          "upos": "VERB",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "v"
+        },
+        {
+          "tid": 3,
+          "form": "为",
+          "upos": "ADP",
+          "char_start": 2,
+          "char_end": 3,
+          "xpos": "p"
+        },
+        {
+          "tid": 4,
+          "form": "地区",
+          "upos": "NOUN",
+          "char_start": 3,
+          "char_end": 5,
+          "xpos": "n"
+        },
+        {
+          "tid": 5,
+          "form": "发展",
+          "upos": "NOUN",
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "vn"
+        },
+        {
+          "tid": 6,
+          "form": "贡献力量",
+          "upos": "NOUN",
+          "char_start": 7,
+          "char_end": 11,
+          "xpos": "n"
+        },
+        {
+          "tid": 7,
+          "form": "。",
+          "upos": "X",
+          "char_start": 11,
+          "char_end": 12,
+          "xpos": "x"
+        }
+      ],
+      "l1_tokens": [
+        {
+          "tid": 1,
+          "form": "私",
+          "upos": "PRON",
+          "char_start": 0,
+          "char_end": 1,
+          "xpos": "代名詞,*,*,*"
+        },
+        {
+          "tid": 2,
+          "form": "は",
+          "upos": "PART",
+          "char_start": 1,
+          "char_end": 2,
+          "xpos": "助詞,係助詞,*,*"
+        },
+        {
+          "tid": 3,
+          "form": "地域",
+          "upos": "NOUN",
+          "char_start": 2,
+          "char_end": 4,
+          "xpos": "名詞,普通名詞,一般,*"
+        },
+        {
+          "tid": 4,
+          "form": "貢献",
+          "upos": "NOUN",
+          "char_start": 4,
+          "char_end": 6,
+          "xpos": "名詞,普通名詞,サ変可能,*"
+        },
+        {
+          "tid": 5,
+          "form": "を",
+          "upos": "PART",
+          "char_start": 6,
+          "char_end": 7,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 6,
+          "form": "し",
+          "upos": "VERB",
+          "char_start": 7,
+          "char_end": 8,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 7,
+          "form": "たい",
+          "upos": "AUX",
+          "char_start": 8,
+          "char_end": 10,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 8,
+          "form": "と",
+          "upos": "PART",
+          "char_start": 10,
+          "char_end": 11,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 9,
+          "form": "考え",
+          "upos": "VERB",
+          "char_start": 11,
+          "char_end": 13,
+          "xpos": "動詞,一般,*,*"
+        },
+        {
+          "tid": 10,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 13,
+          "char_end": 14,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 11,
+          "form": "い",
+          "upos": "VERB",
+          "char_start": 14,
+          "char_end": 15,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 12,
+          "form": "ます",
+          "upos": "AUX",
+          "char_start": 15,
+          "char_end": 17,
+          "xpos": "助動詞,*,*,*"
+        },
+        {
+          "tid": 13,
+          "form": "。",
+          "upos": "PUNCT",
+          "char_start": 17,
+          "char_end": 18,
+          "xpos": "補助記号,句点,*,*"
+        }
+      ],
+      "errors": [
+        {
+          "eid": "s7e1",
+          "before": "策划",
+          "type": "wrong-content-word",
+          "after": "∅",
+          "after_token_ids": [],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "策划",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s7e2",
+          "before": "∅",
+          "type": "missing-function-word",
+          "after": "为",
+          "after_token_ids": [
+            3
+          ],
+          "before_tokens": []
+        },
+        {
+          "eid": "s7e3",
+          "before": "地域",
+          "type": "wrong-content-word",
+          "after": "地区发展",
+          "after_token_ids": [
+            4,
+            5
+          ],
+          "before_tokens": [
+            {
+              "tid": 1,
+              "form": "地域",
+              "upos": "NOUN",
+              "char_start": 0,
+              "char_end": 2,
+              "xpos": "n"
+            }
+          ]
+        },
+        {
+          "eid": "s7e4",
+          "before": "∅",
+          "type": "missing-sentence-element",
+          "after": "力量",
+          "after_token_ids": [
+            6
+          ],
+          "before_tokens": []
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

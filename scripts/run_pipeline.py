@@ -46,10 +46,13 @@ def main() -> None:
 
     args.canonical_dir.mkdir(parents=True, exist_ok=True)
     annotated: list[dict] = []
+    keep_ids: set[str] = set()
+    n_warn = 0
     for draft in essays_draft:
         pre = essay_to_dict_pre_tokens(draft)
         essay = annotate_essay(pre)
         annotated.append(essay)
+        keep_ids.add(essay["essay_id"])
         out = args.canonical_dir / f"{essay['essay_id']}.json"
         out.write_text(json.dumps(essay, ensure_ascii=False, indent=2), encoding="utf-8")
         n_tok = sum(len(s["l2_tokens"]) for s in essay["sentences"])
@@ -59,11 +62,24 @@ def main() -> None:
             f"{n_tok} l2 tokens, {n_err} errors, lang={essay['l2_lang']}"
         )
         for w in essay.get("warnings") or []:
+            n_warn += 1
             print(f"    warning: {w}")
+
+    stale = sorted(
+        p for p in args.canonical_dir.glob("*.json") if p.stem not in keep_ids
+    )
+    for p in stale:
+        p.unlink()
+        print(f"  removed stale canonical: {p.name}")
 
     index = build_index(annotated)
     write_index(index, args.index_out)
-    print(f"Wrote index: {args.index_out} ({index['sentence_count']} sentences)")
+    n_err_all = sum(len(s["errors"]) for e in annotated for s in e["sentences"])
+    print(
+        f"Wrote index: {args.index_out} "
+        f"({index['essay_count']} essays / {index['sentence_count']} sentences / "
+        f"{n_err_all} errors, warnings={n_warn})"
+    )
 
     if args.web_public:
         args.web_public.parent.mkdir(parents=True, exist_ok=True)

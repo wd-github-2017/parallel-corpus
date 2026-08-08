@@ -9,7 +9,7 @@ export type SearchExample = {
   line: string;
 };
 
-/** Verified against current sample index (CJL001 / JLCW_001). */
+/** Verified against the 2026-08 index (161 essays; still includes CJL001 / JLCW_001). */
 export const SEARCH_EXAMPLES: Record<UiLocale, SearchExample[]> = {
   ja: [
     {

@@ -1700,7 +1700,7 @@
     {
       "sid": 7,
       "l2_field": "我很喜欢回想、思考、解读这些作品。",
-      "l1_field": "私はこれらを思い浮かべ、考え、解釈することを楽しんでいます。",
+      "l1_field": "私はこれらを思い浮かべ、考え、解釈することを楽しみにしています。",
       "marked_raw": "我很喜欢回想【起|extra-function-word|∅】【，|wrong-punctuation|、】【考|wrong-content-word|思考】【，|wrong-punctuation|、】【解释|wrong-content-word|解读】【∅|missing-sentence-element|这些作品】。",
       "learner_approx": "我很喜欢回想起，考，解释。",
       "l2_tokens": [
@@ -1908,42 +1908,66 @@
         },
         {
           "tid": 15,
-          "form": "楽しん",
-          "upos": "VERB",
+          "form": "楽し",
+          "upos": "ADJ",
           "char_start": 22,
-          "char_end": 25,
-          "xpos": "動詞,一般,*,*"
+          "char_end": 24,
+          "xpos": "形容詞,一般,*,*"
         },
         {
           "tid": 16,
-          "form": "で",
+          "form": "み",
           "upos": "PART",
-          "char_start": 25,
-          "char_end": 26,
-          "xpos": "助詞,接続助詞,*,*"
+          "char_start": 24,
+          "char_end": 25,
+          "xpos": "接尾辞,名詞的,一般,*"
         },
         {
           "tid": 17,
-          "form": "い",
+          "form": "に",
+          "upos": "PART",
+          "char_start": 25,
+          "char_end": 26,
+          "xpos": "助詞,格助詞,*,*"
+        },
+        {
+          "tid": 18,
+          "form": "し",
           "upos": "VERB",
           "char_start": 26,
           "char_end": 27,
           "xpos": "動詞,非自立可能,*,*"
         },
         {
-          "tid": 18,
+          "tid": 19,
+          "form": "て",
+          "upos": "PART",
+          "char_start": 27,
+          "char_end": 28,
+          "xpos": "助詞,接続助詞,*,*"
+        },
+        {
+          "tid": 20,
+          "form": "い",
+          "upos": "VERB",
+          "char_start": 28,
+          "char_end": 29,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 21,
           "form": "ます",
           "upos": "AUX",
-          "char_start": 27,
-          "char_end": 29,
+          "char_start": 29,
+          "char_end": 31,
           "xpos": "助動詞,*,*,*"
         },
         {
-          "tid": 19,
+          "tid": 22,
           "form": "。",
           "upos": "PUNCT",
-          "char_start": 29,
-          "char_end": 30,
+          "char_start": 31,
+          "char_end": 32,
           "xpos": "補助記号,句点,*,*"
         }
       ],
@@ -2466,7 +2490,7 @@
     {
       "sid": 9,
       "l2_field": "我将来的梦想还蒙着迷雾，我还没有明确决定要从事什么行业。",
-      "l1_field": "将来の夢は霧に隠れたままで、明確に就く職を決めてはいません。",
+      "l1_field": "将来の夢は霧に隠れたままで、明確につく職を決めてはいません。",
       "marked_raw": "我将来的梦想【∅|missing-function-word|还】【隐匿|wrong-content-word|蒙着】【雾气|wrong-content-word|迷雾】，我还没有明确决定要从事什么行业。",
       "learner_approx": "我将来的梦想隐匿雾气，我还没有明确决定要从事什么行业。",
       "l2_tokens": [
@@ -2730,11 +2754,11 @@
         },
         {
           "tid": 14,
-          "form": "就く",
+          "form": "つく",
           "upos": "VERB",
           "char_start": 17,
           "char_end": 19,
-          "xpos": "動詞,非自立可能,*,*"
+          "xpos": "動詞,一般,*,*"
         },
         {
           "tid": 15,
@@ -3274,7 +3298,7 @@
     {
       "sid": 11,
       "l2_field": "请多关照。",
-      "l1_field": "どうぞよろしくお願いします。",
+      "l1_field": "よろしくお願いします。",
       "marked_raw": "请多关照。",
       "learner_approx": "请多关照。",
       "l2_tokens": [
@@ -3298,58 +3322,50 @@
       "l1_tokens": [
         {
           "tid": 1,
-          "form": "どうぞ",
+          "form": "よろしく",
           "upos": "ADV",
           "char_start": 0,
-          "char_end": 3,
+          "char_end": 4,
           "xpos": "副詞,*,*,*"
         },
         {
           "tid": 2,
-          "form": "よろしく",
-          "upos": "ADV",
-          "char_start": 3,
-          "char_end": 7,
-          "xpos": "副詞,*,*,*"
-        },
-        {
-          "tid": 3,
           "form": "お",
           "upos": "PART",
-          "char_start": 7,
-          "char_end": 8,
+          "char_start": 4,
+          "char_end": 5,
           "xpos": "接頭辞,*,*,*"
         },
         {
-          "tid": 4,
+          "tid": 3,
           "form": "願い",
           "upos": "VERB",
-          "char_start": 8,
-          "char_end": 10,
+          "char_start": 5,
+          "char_end": 7,
+          "xpos": "動詞,非自立可能,*,*"
+        },
+        {
+          "tid": 4,
+          "form": "し",
+          "upos": "VERB",
+          "char_start": 7,
+          "char_end": 8,
           "xpos": "動詞,非自立可能,*,*"
         },
         {
           "tid": 5,
-          "form": "し",
-          "upos": "VERB",
-          "char_start": 10,
-          "char_end": 11,
-          "xpos": "動詞,非自立可能,*,*"
-        },
-        {
-          "tid": 6,
           "form": "ます",
           "upos": "AUX",
-          "char_start": 11,
-          "char_end": 13,
+          "char_start": 8,
+          "char_end": 10,
           "xpos": "助動詞,*,*,*"
         },
         {
-          "tid": 7,
+          "tid": 6,
           "form": "。",
           "upos": "PUNCT",
-          "char_start": 13,
-          "char_end": 14,
+          "char_start": 10,
+          "char_end": 11,
           "xpos": "補助記号,句点,*,*"
         }
       ],

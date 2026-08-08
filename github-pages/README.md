@@ -14,11 +14,6 @@
 5. 保存后等待约 1 分钟，访问：  
    `https://<用户名>.github.io/parallel-corpus/`
 
-## 或者：直接用本文件夹名
-
-若希望保留文件夹名为 `github-pages`，Pages 的「文件夹」选项通常只有 `/` 与 `/docs`。  
-此时请把内容放到 `docs/`，或改用 GitHub Actions（仓库已含 `.github/workflows/deploy.yml`）。
-
 ## 重新生成本目录
 
 ```bash
