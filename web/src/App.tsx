@@ -229,6 +229,11 @@ export default function App() {
 
       <header className="brand">
         <h1>{t(locale, "brandTitle")}</h1>
+        <p className="brand-grant">
+          中国語・日本語「学習者・母語対訳」作文コーパスの構築と母語転移に基づく文法研究　21K13069
+          <br />
+          研究代表者：福田 翔　富山大学, 学術研究部教養教育学系
+        </p>
         <p>{t(locale, "brandSubtitle")}</p>
         <div className="examples">
           <div className="examples-title">{t(locale, "examplesTitle")}</div>
